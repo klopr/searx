@@ -1,5 +1,5 @@
 server {
-        listen      80;
+        listen      {{ searx_port }};
         server_name {{ searx_hostname }};
 
         access_log {{ searx_nginx_access_logs }};
